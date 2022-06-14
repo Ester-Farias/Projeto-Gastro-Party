@@ -1,0 +1,152 @@
+
+
+/*
+    Desenvolvido por Ester-Souza
+    github.com/Ester-Souza
+    instagram.com/estersouza99
+*/
+
+/*--------------------Fontes Costumizadas--------------*/
+
+
+@font-face 
+{font-family: "Romantice";
+src: url("fontes/ROMANTICE.woff");}
+
+@font-face 
+{font-family: "Corona";
+src: url("fontes/Corona-Regular.woff");}
+
+
+
+/*--------------------Configurações Padrões--------------*/
+
+
+body, html {
+    margin:0;
+    padding: 0;
+    height: 100%;
+    text-decoration: none;}
+
+
+
+p {
+    color: #111;
+    line-height: 22px;
+    font-size: 17.5px;
+    letter-spacing: 1px;
+    font-family:"Corona";}
+
+
+
+ul a{
+    color: #fff;
+    font-family: "Corona";}
+
+    
+
+
+ul a:hover{
+    color: #ffe600;}
+
+
+
+
+/*--------------------Efeito Parallax--------------------*/
+
+section.Parallax-Image-1,
+section.Parallax-Image-2,
+section.Parallax-Image-3 {
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;}
+
+
+
+.Parallax-Image-1 {background-image: url(../imagens/imagem1.jpg);}
+.Parallax-Image-2 {background-image: url(../imagens/imagem2.jpg);}
+.Parallax-Image-3 {background-image: url(../imagens/imagem3.jpg);} 
+
+
+
+.Parallax-Image-1 #Titulo,
+.Parallax-Image-2 #Titulo,
+.Parallax-Image-3 #Titulo {
+    left: 0;
+    top: 250px;
+    width: 100%;
+    font-size: 120px;
+    color: #ffe600;
+    text-align: center;
+    position: absolute;
+    font-family: "Corona";
+    text-shadow: 20px 12px 3px rgb(0, 0, 0)}
+
+
+
+/*--------------------Configurações de Layout--------------------*/
+
+
+
+section#Principal-Content {
+    height: 40%;
+    color: black;
+    font-size: 20px;
+    padding: 25px 80px;
+    font-family: "Corona";
+    background-color: #fff;}
+
+
+#custom-font {
+    color: black;
+    font-size: 45px;
+    font-family: "Corona";}
+
+    
+
+
+
+/*--------------------Configurações do Footer--------------------*/
+
+
+
+footer  {
+    left: 0;
+    top: 100px;
+    width: 100%;
+    height: 200px;
+    padding-top: 45px;
+    text-align: center;
+    background: #1C1C1C;}
+
+
+
+.logo {
+    font-size: 35px;
+    color: #ffe600;
+    font-family: "Corona";}
+
+
+
+h3.footer {
+    font-size: 20px;
+    color: #ffe600;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Corona";
+    text-transform: uppercase;}
+
+
+
+.footer-custom-center {
+    color: #fff;
+    font-size: 20px;
+    font-family: "Corona";}    
+
+
+
+
+/*-----------------------------Sistema de Responsividade-----------------------------*/
